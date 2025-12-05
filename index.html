@@ -6,7 +6,30 @@
 -->
 <html>
 	<head>
-		<title>Keisha Bolaji - Data Engineer Portfolio</title>
+		<title>Keisha Bolaji - Business Intelligence Analytics Portfolio</title>
+		<style>
+    		/* Add the new certification badge styles here */
+    		.certification-badge {
+      			display: inline-block;
+      			text-align: center;
+      			margin: 15px;
+    		}
+    
+   			.certification-badge img {
+      			border-radius: 8px;
+      			transition: transform 0.3s ease;
+    		}
+    
+    		.certification-badge img:hover {
+      			transform: scale(1.05);
+    	}
+    
+    		.badge-title {
+      			margin-top: 10px;
+      			font-size: 0.9em;
+      			color: #333;
+   		 }
+  		</style>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,7 +43,7 @@
 				<!-- Intro -->
 					<div id="intro">
 						<h1>Keisha Bolaji</h1>
-						<h2>Data Engineer | Analytics Specialist</h2>
+						<h2>Business Intelligence Analytics </h2>
 						<p>Building automated data solutions and reliable infrastructure for mission-driven organizations.<br />
 						7+ years transforming data challenges into scalable systems across public sector.<br />
 						Currently pursuing MS in Data Science | Passionate about data for social impact<br />
@@ -33,7 +56,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Data Engineering Portfolio</a>
+						<a href="index.html" class="logo">DI Data Analytics Portfolio</a>
 					</header>
 
 				<!-- Nav -->
@@ -87,7 +110,7 @@
 										<li>SQL (PostgreSQL, MySQL, Oracle, MS SQL)</li>
 										<li>Python (pandas, NumPy)</li>
 										<li>Git/Version Control</li>
-										<li>PowerShell</li>
+										<li>Visual Basic Macros and DAX Coding</li>
 									</ul>
 								</div>
 								<div class="col-6 col-12-small">
@@ -96,7 +119,7 @@
 										<li>AWS (Redshift, S3)</li>
 										<li>Database Design</li>
 										<li>Data Warehouse Architecture</li>
-										<li>Cloud Data Solutions</li>
+										<li>Machine Learning Foundations</li>
 									</ul>
 								</div>
 								<div class="col-6 col-12-small">
@@ -108,6 +131,26 @@
 										<li>Data Visualization</li>
 									</ul>
 								</div>
+								<!-- Google Business Intelligence Certificate Badge -->
+								<div class="certification-badge">
+  									<a href="https://www.credly.com/badges/da97ad20-c931-4342-89dc-69e7cf409748/public_url" target="_blank" rel="noopener noreferrer">
+    									<img src="images/google-business-intelligence-certificate.png" 
+         									alt="Google Business Intelligence Certificate" 
+        									width="150" 
+         									height="150">
+  									</a>
+  									<p class="badge-title">Google Business Intelligence Certificate</p>
+								</div>	
+								<!-- AWS ML Training Certificate Badge -->
+								<div class="certification-badge">
+  									<a href="https://www.credly.com/badges/729ca8d7-d73a-49dd-9089-631d74e4e591/public_url" target="_blank" rel="noopener noreferrer">
+    									<img src="images\aws-ML-badge.png" 
+         									alt="AWS Machine Learning Certificate" 
+        									width="150" 
+         									height="150">
+  									</a>
+  									<p class="badge-title">AWS Machine Learning Certificate</p>
+								</div>	
 							</div>
 						</article>
 
@@ -146,7 +189,7 @@
 						<section class="posts">
 							<article>
 								<header>
-									<span class="date">Project 2</span>
+									<span class="date"> Data Modeling and Dashboard Project</span>
 									<h2><a href="https://drive.google.com/file/d/1X1t9CxXNxg6YT1BYzEVm5T7Vv924Swr3/view">Data Quality Dashboard Design<br />
 									</a></h2>
 								</header>
@@ -177,26 +220,38 @@
 							
 							<article>
 								<header>
-									<span class="date">Project 3</span>
-									<h2><a href="#">Environmental Data Analysis<br />
+									<span class="date">Business Analytics Project</span>
+									<h2><a href="#">Public Libraries Expansion Analysis<br />
 									</a></h2>
 								</header>
-								<a href="#" class="image fit"><img src="images/environmental-project.jpg" alt="Environmental Analysis" /></a>
-								<p>Analysis of public environmental datasets to identify trends in air quality, water resources, and climate patterns, with predictive modeling for environmental impact assessment.</p>
+								<a href="#" class="image fit"><img src="images/JS_portfolio_project_snapshot.png" alt="Expansion Analysis" /></a>
+								<p>Led a comprehensive analysis to identify optimal locations for expanding STEM education programs across New Jersey.</p>
 								<h4>Key Features:</h4>
 								<ul style="list-style-type: none; padding-left: 0;">
-									<li>Multi-source environmental data integration</li>
+									<li>Multi-source educational data integration</li>
 									<li>Statistical analysis and trend identification</li>
-									<li>Predictive modeling for impact assessment</li>
-									<li>Interactive visualizations</li>
-									<li>Public health insights</li>
+									<li>Predictive modeling for expansion assessment</li>
+									<li>Geo-location caluclations for city-level proximity analysis</li>
+									<li>Salesforce extraction</li>
 								</ul>
-								<p><strong>Tech Stack:</strong> Python | Pandas | Data Analysis | Statistical Modeling</p>
-								<ul class="actions special">
-									<li><a href="#" class="button">Coming Soon</a></li>
-								</ul>
+								<p><strong>Tech Stack:</strong> Salesforce CRM | MySQL | Data Integration | Statistical Analysis/Modeling</p>
+								<h2 class="section-title">Project Overview</h2>
+                <p style="color: #555; line-height: 1.8; margin-bottom: 20px;">
+                    As Deputy Data Analytics Lead at JerseyStem, I led a comprehensive analysis 
+                    to identify optimal locations for expanding STEM education programs across 
+                    New Jersey. The project integrated Salesforce CRM data with NJ Department 
+                    of Education records to pinpoint public libraries in communities with 
+                    Title I middle schools.
+                </p>
+                
+                <div class="challenge-box">
+                    <h4>Key Challenge</h4>
+                    <p>
+                        Inconsistent data formatting between Salesforce and NJ DOE systems 
+                        prevented direct matching. Developed custom standardization algorithm 
+                        to enable accurate integration of 468 libraries with 934 schools.
+                    </p>
 							</article>
-
 							<article>
 								<header>
 									<span class="date">Professional Experience</span>
@@ -205,13 +260,11 @@
 								</header>
 								<a href="#" class="image fit"><img src="images/experience.jpg" alt="" /></a>
 								<p><strong>July 2024 - Present</strong></p>
-								<ul>
-									<li>Design and implement automated ETL pipelines processing state level business statistics</li>
-									<li>Build data quality with Excel, Queries, and Pivots to improve accuracy</li>
-									<li>Develop VBA Scripting for automated analytics</li>
-									<li>Automate workflows reducing processing time by 80%</li>
-									<li>Extract data from Amazon Redshift and DB2 data warehouses</li>
-								</ul>
+								<p>Design and implement automated ETL pipelines processing state level business statistics.</p>
+								<p>Build data quality with Excel, Queries, and Pivots to improve accuracy.</p>
+								<p>Develop VBA Scripting for automated analytics.</p>
+								<p>Automate workflows reducing processing time by 80%.</p>
+								<p>Extract data from Amazon Redshift and DB2 data warehouses.</p>
 								<ul class="actions special">
 									<li><a href="https://linkedin.com/in/keishab" class="button">View Full Experience</a></li>
 								</ul>
@@ -224,11 +277,13 @@
 									</h2>
 								</header>
 								<a href="#" class="image fit"><img src="images/education.jpg" alt="" /></a>
-								<p><strong>In Progress (Expected 2026)</strong></p>
+								<p><strong>Illinois Institute of Technology, In Progress (Expected 2027)</strong></p>
 								<p>Focusing on advanced data systems, machine learning, Python development, and cloud architectures. Formalizing my transition from business intelligence to data engineering through rigorous academic training.</p>
 								<br />
-								<p><strong>Master of Arts in Education</strong><br />
-								American University (2005-2007)</p>
+								<p><strong>Master of Arts</strong><br />
+								American University (2007)</p>
+								<p><strong>Bachelor of Arts</strong><br />
+								Drew University (2002)</p>
 								<ul class="actions special">
 									<li><a href="#main" class="button">Back to Projects</a></li>
 								</ul>
